@@ -1,0 +1,68 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+selenium_env/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest
+.pytest_cache/
+.cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# =====================
+# Selenium / reports
+# =====================
+allure-results/
+allure-report/
+screenshots/
+logs/
+*.log
+
+# =====================
+# IDE
+# =====================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# dotenv / secrets
+# =====================
+.env
+*.env
+
+# =====================
+# test artifacts / downloads
+# =====================
+downloads/
+tmp/
+temp/
+
+# =====================
+# Selenium specific (optional but useful)
+# =====================
+geckodriver.log
+chromedriver.log
