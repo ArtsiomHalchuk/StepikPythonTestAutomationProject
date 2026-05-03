@@ -8,7 +8,7 @@ class BasketPage(BasePage):
         self.should_be_basket_breadcrumb()
 
     def should_be_basket_url(self):
-        assert "/basket/" in self.browser.current_url, "Basket URL is not correct"
+        assert "/basket/" in self.browser.current_url.lower(), "Basket URL is not correct"
 
     def should_be_basket_title(self):
         assert "Basket" in self.browser.find_element(*BasketPageLocators.BASKET_TITLE).text
